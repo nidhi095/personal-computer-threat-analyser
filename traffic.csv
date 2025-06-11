@@ -1,3 +1,4 @@
+#to train the model
 SourceIP,DestIP,Protocol,Length,Label
 192.168.1.36,23.223.154.107,6,384,normal
 192.168.1.36,23.223.154.107,6,288,normal
