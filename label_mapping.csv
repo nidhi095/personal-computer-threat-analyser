@@ -1,0 +1,11 @@
+Label,Label_Code
+normal,3
+udp_flood,9
+tcp_scan,8
+ping_flood,4
+syn_flood,7
+http_flood,1
+port_scan,5
+dns_amplification,0
+smurf_attack,6
+malware,2
