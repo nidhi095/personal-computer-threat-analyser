@@ -4,7 +4,7 @@ A real-time network traffic sniffer and basic intrusion detection system built u
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -27,18 +27,18 @@ cybersecurity-packet-detector/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-> ⚠️ This project requires **Npcap** to be installed on Windows for Scapy to sniff packets.  
+> This project requires **Npcap** to be installed on Windows for Scapy to sniff packets.  
 > Download from: [https://nmap.org/npcap](https://nmap.org/npcap)
 
-### 🔹 1. Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ````
 
-### 🔹 2. Capture Packets
+### 2. Capture Packets
 
 This script captures 100 packets and stores their features in `data/traffic.csv`.
 
@@ -48,7 +48,7 @@ python sniff_packets.py
 
 > Tip: Do some internet activity during capture (e.g., open websites, ping, etc.)
 
-### 🔹 3. Label Attacks in CSV
+### 3. Label Attacks in CSV
 
 Open `data/traffic.csv` and manually label a few rows with attacks like:
 
@@ -62,7 +62,7 @@ Open `data/traffic.csv` and manually label a few rows with attacks like:
 
 Save and close the CSV.
 
-### 🔹 4. Train the Detection Model
+### 4. Train the Detection Model
 
 ```bash
 python train_model.py
@@ -70,7 +70,7 @@ python train_model.py
 
 This will generate `model.pkl` and `label_mapping.csv`.
 
-### 🔹 5. Run Real-Time Detection
+### 5. Run Real-Time Detection
 
 ```bash
 python real_time_detect.py
@@ -85,7 +85,7 @@ Detected: NORMAL     | Protocol: 6  | Length: 60
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 ```
 scapy
@@ -96,7 +96,7 @@ joblib
 
 ---
 
-## ✅ Features
+## Features
 
 * [x] Real-time packet sniffing
 * [x] Feature extraction (IP, Protocol, Length)
@@ -106,7 +106,7 @@ joblib
 
 ---
 
-## 🧠 Future Ideas
+## Future Ideas
 
 * Use SHAP or feature importance visualization
 * Add anomaly detection (unsupervised)
@@ -115,7 +115,7 @@ joblib
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is for **educational and research purposes only**. It does not actively prevent or block threats — only detects and labels traffic patterns using a trained model. Use responsibly.
 
