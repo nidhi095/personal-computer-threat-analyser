@@ -1,6 +1,6 @@
 # personal-computer-threat-analyser
 
-A real-time network traffic sniffer and basic intrusion detection system built using Python, Scapy, and machine learning (Random Forest). It classifies network packets as **normal** or various types of **attacks** like `udp_flood`, `syn_flood`, `http_flood`, etc.
+A real-time network traffic sniffer and basic intrusion detection system built using Python and Scapy. It classifies network packets as **normal** or various types of **attacks** like `udp_flood`, `syn_flood`, `http_flood`, etc.
 
 ---
 
